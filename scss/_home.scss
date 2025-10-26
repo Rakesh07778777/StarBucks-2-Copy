@@ -559,7 +559,8 @@
         &-icons{
             display: flex;
             gap: 16px;
-            i{
+
+                          i{
                 font-size: 2rem;
             }
                         i:nth-child(4){
@@ -586,9 +587,11 @@
                 align-items: center;
                 text-align: center;
             }
+
+
         }
 
-        &-texts{
+                       &-texts{
             display: flex;
             flex-direction: column;
             gap: 2rem;
@@ -599,11 +602,13 @@
                 color: #1f1f1f;
             }
         }
+
     }
 
-    .copyright{
+   .copyright{
         margin-top: 0.8rem;
         color: #4b4b4b;
     }
+
 
 }
