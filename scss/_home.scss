@@ -563,6 +563,7 @@
                           i{
                 font-size: 2rem;
             }
+            
                         i:nth-child(4){
                 // font-size: 1.2rem;
                 font-size: 1.2rem;
@@ -591,7 +592,7 @@
 
         }
 
-                       &-texts{
+            &-texts{
             display: flex;
             flex-direction: column;
             gap: 2rem;
@@ -603,9 +604,11 @@
             }
         }
 
+
     }
 
-   .copyright{
+
+           .copyright{
         margin-top: 0.8rem;
         color: #4b4b4b;
     }
