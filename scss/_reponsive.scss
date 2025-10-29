@@ -1,16 +1,16 @@
-// @include medium-screen {
-//  .footer__container{
-//     flex-wrap: wrap;
+@include medium-screen {
+ .footer__container{
+    flex-wrap: wrap;
 
-//     &-items.active ul{
-//         display: block;
-//     }
-//     ul{
-//         display: none;
-//     }
+    &-items.active ul{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
 
-//     .footer__toggle{
-//         display: block;
-//     }
-//  }
-// }
+    .footer__toggle{
+        display: block;
+    }
+ }
+} 
