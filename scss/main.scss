@@ -1,33 +1,33 @@
-@import 'config';
-@import 'home';
-@import 'reponsive';
+@use 'config';
+@use 'home';
+@use 'responsive';
 
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background: $primary-color;
-    line-height: 1;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: config.$primary-color;
+  line-height: 1;
 }
 
-a{
-    text-decoration: none;
-    color: $text-secondary;
-}
-li{
-    list-style: none;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    font-weight: bold;
+a {
+  text-decoration: none;
+  color: config.$text-secondary;
 }
 
-header{
-    width: 100%;
-    overflow: hidden;
-    padding-right: 2rem;
-    padding-left: 2rem;
+li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
-main{
-    width: 100%;
-    padding: 1.5rem 0;
+header {
+  width: 100%;
+  overflow: hidden;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+main {
+  width: 100%;
+  padding: 1.5rem 0;
 }

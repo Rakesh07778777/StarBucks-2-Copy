@@ -809,59 +809,6 @@
 .footer .footer__socials-icons i {
   font-size: 2rem;
 }
-.footer .footer__socials-icons i:nth-child(4) {
-  font-size: 1.2rem;
-  background: #000;
-  color: white;
-  border-radius: 50%;
-  padding: 2px 18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-.footer .footer__socials-icons i:nth-child(5) {
-  font-size: 1.2rem;
-  background: #000;
-  color: white;
-  border-radius: 50%;
-  padding: 2px 18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-.footer .footer__socials-texts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 2rem;
-}
-.footer .footer__socials-texts h5 {
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: #1f1f1f;
-}
-.footer .copyright {
-  margin-top: 0.8rem;
-  color: #4b4b4b;
-}
 
 @media screen and (max-width: 768px) {
   .footer__container {

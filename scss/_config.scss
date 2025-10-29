@@ -1,16 +1,20 @@
+// _config.scss
+
+// Base colors
 $primary-color: #FFFFFF;
-$secondary-color: #32462F ;
+$secondary-color: #32462F;
 $teriotary-color: #5F4633;
 $text-secondary: #000;
-$text-muted:hsl(0, 0%, 20%) ;
+$text-muted: hsl(0, 0%, 20%);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
+// Starbucks color palette
 $colorWhite: #ffffff;
 $colorNeutralCool: #f9f9f9;
 $colorNeutralWarm: #f2f0eb;
@@ -26,20 +30,8 @@ $colorGoldLight: #dfc49d;
 $colorGoldLightest: #faf6ee;
 $colorRed: #c82014;
 $colorYellow: #fbbc05;
-$colorWhiteHsl: 0 0% 100%;
-$colorNeutralCoolHsl: 0 0% 98%;
-$colorNeutralWarmHsl: 43 21% 94%;
-$colorCeramicHsl: 30 10% 92%;
-$colorBlackHsl: 0 0% 0%;
-$colorGreenStarbucksHsl: 160 100% 19%;
-$colorGreenAccentHsl: 158 100% 23%;
-$colorGreenLightHsl: 160 32% 87%;
-$colorHouseGreenHsl: 164 31% 17%;
-$colorGoldHsl: 39 53% 57%;
-$colorGoldLightHsl: 35 51% 75%;
-$colorGoldLightestHsl: 40 55% 96%;
-$colorRedHsl: 4 82% 43%;
-$colorYellowHsl: 45 97% 5%;
+
+// Alpha versions
 $colorBlack6: rgba(0, 0, 0, .06);
 $colorBlack10: rgba(0, 0, 0, .1);
 $colorBlack20: rgba(0, 0, 0, .2);
@@ -50,6 +42,8 @@ $colorBlack60: rgba(0, 0, 0, .6);
 $colorBlack70: rgba(0, 0, 0, .7);
 $colorBlack80: rgba(0, 0, 0, .8);
 $colorBlack90: rgba(0, 0, 0, .9);
+
+// White transparency
 $colorWhite10: rgba(255, 255, 255, .1);
 $colorWhite20: rgba(255, 255, 255, .2);
 $colorWhite30: rgba(255, 255, 255, .3);
@@ -59,35 +53,34 @@ $colorWhite60: rgba(255, 255, 255, .6);
 $colorWhite70: rgba(255, 255, 255, .7);
 $colorWhite80: rgba(255, 255, 255, .8);
 $colorWhite90: rgba(255, 255, 255, .9);
-    $colorTextBlack: rgba(0, 0, 0, .87);
+
+// Text colors
+$colorTextBlack: rgba(0, 0, 0, .87);
 $colorTextBlackSoft: rgba(0, 0, 0, .58);
 
-
-@mixin transitions{
-    transition: all 0.3s ease;
+// Mixins
+@mixin transitions {
+  transition: all 0.3s ease;
 }
 
-
-@mixin buttons{
-display: inline-block;
-padding: 10px 1.2rem;
-border-radius: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-white-space: nowrap;
-@include transitions;
+@mixin buttons {
+  display: inline-block;
+  padding: 10px 1.2rem;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  @include transitions;
 }
 
-@mixin colorHover($bgColor){
-    background: $bgColor;
+@mixin colorHover($bgColor) {
+  background: $bgColor;
 }
 
-
-@mixin medium-screen{
-    @media screen and (max-width : 768px) {
-        @content
-        
-    }
+@mixin medium-screen {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
 }
